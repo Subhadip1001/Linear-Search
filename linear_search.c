@@ -7,12 +7,12 @@ int main(){
     printf("Enter array size :");
     scanf("%d",&n);
     int arr[n];
-    printf("Enter aliment :");
+    printf("Enter eliminete :"); // Enter number which you sore in this array
     for(i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
     int key;
-    printf("Enter key :");
+    printf("Enter key :"); // Enter this number which you find
     scanf("%d",&key);
     int a=linear(arr,n,key);
     if(a=-1){
